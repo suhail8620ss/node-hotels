@@ -14,4 +14,5 @@ router.post('/menu', (req, res) => {
 router.get('/getmenu', (req, res) => {
      menucontroller.getMenu(req, res)
 })
+ // Comments added for testing purpose
 module.exports = router;
